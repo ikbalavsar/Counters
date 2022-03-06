@@ -1,27 +1,7 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 27.08.2021 08:54:40
-// Design Name: 
-// Module Name: Lab4_Part2
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module Lab4_Part2(HEX0,AN,CLK100MHZ );
-    input CLK100MHZ ; //test benchte 0 dan baþlat 
+    input CLK100MHZ ; //test benchte 0 dan baÃ¾lat 
     output [0:6] HEX0;
     output [7:0] AN; 
     
