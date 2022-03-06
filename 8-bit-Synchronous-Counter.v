@@ -1,24 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 26.08.2021 08:25:22
-// Design Name: 
-// Module Name: Lab4_Part1
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module Lab4_Part1 (SW,CLK100MHZ,LEDR,AN,HEX0) ; 
      input CLK100MHZ  ; 
@@ -66,7 +46,7 @@ endmodule
 module T_Flip_Flop ( Clear, T, CLK,  Q ) ;
     input Clear;
     input CLK ; 
-    input T ; // T deðeri Enable 
+    input T ; // T deÃ°eri Enable 
     output reg Q ; 
   
   initial
