@@ -1,24 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 27.08.2021 15:13:16
-// Design Name: 
-// Module Name: Lab4_Part4
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module Lab4_Part4(CLK100MHZ, HEX0, AN,LEDR);
 
@@ -157,7 +137,7 @@ module clk_dividerr1(
     output reg divided_clk = 0  );
     
     integer counter_value = 0 ; 
-    localparam div_value = 800000; // en yavaþ 2 bit counter  5 sýfýr
+    localparam div_value = 800000; // en yavaÃ¾ 2 bit counter  5 sÃ½fÃ½r
     
     always@ (posedge CLK100MHZ )
     begin 
@@ -181,7 +161,7 @@ module clk_dividerr1(
      output reg divided_clk = 0  );
      
      integer counter_value = 0 ; 
-     localparam div_value = 1000;   // Daha hýzlý hex ve an kontrol  3 sýfýr
+     localparam div_value = 1000;   // Daha hÃ½zlÃ½ hex ve an kontrol  3 sÃ½fÃ½r
      
      always@ (posedge CLK100MHZ )
      begin 
